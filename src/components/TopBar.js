@@ -157,7 +157,7 @@ export default function Header(props) {
                     {/* <Box component="Box" display="flex" flexDirection="row" justifyContent="center" flexWrap="nowrap"> */}
                     <Grid container justifyContent='space-between'>
                       <Grid item><a className={classes.menuItem} href='https://promo.brasilautomoveisrj.com.br/cacadores/'>Car Hunter</a></Grid>
-                      <Grid item><a className={classes.menuItem} href='/nosso-time'>Nosso time</a></Grid>
+                      {/* <Grid item><a className={classes.menuItem} href='/nosso-time'>Nosso time</a></Grid> */}
                       <Grid item><a
                         className={classes.menuItem}
                         href='https://www.locafacilaluguel.com.br/'

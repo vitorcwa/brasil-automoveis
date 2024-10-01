@@ -82,9 +82,9 @@ export default function FadeMenu() {
         <MenuItem>
           <Link className={classes.menuItem} href='https://promo.brasilautomoveisrj.com.br/cacadores/'>Car Hunter</Link>
         </MenuItem>
-        <MenuItem>
+        {/*<MenuItem>
           <Link className={classes.menuItem} href='/nosso-time'>Nosso time</Link>
-        </MenuItem>
+        </MenuItem>*/}
         <MenuItem>
           <Link className={classes.menuItem} href='https://www.locafacilaluguel.com.br/' target='_blank'>Aluguel</Link>
         </MenuItem>
