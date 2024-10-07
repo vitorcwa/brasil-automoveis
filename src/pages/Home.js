@@ -3,8 +3,8 @@ import {
    makeStyles, Grid
 } from '@material-ui/core';
 import TopBar from '../components/TopBar';
-// import HeaderContainer from '../components/HeaderContainer';
-import HeaderBanner from '../components/HeaderBanner';
+import HeaderContainer from '../components/HeaderContainer';
+// import HeaderBanner from '../components/HeaderBanner';
 import Footer from '../components/Footer';
 import Vantagens from '../components/Vantagens';
 import VeiculosDestaque from '../components/VeiculosDestaque';
@@ -50,7 +50,7 @@ export default function Home() {
       <Grid className={classes.root}>
 
          <TopBar />
-         {/* <HeaderContainer 
+         <HeaderContainer 
             classTitle={classes.classTitle}
             classSubTitle={classes.classSubTitle}
             subtitle='Vem pra maior, vem pra brasil!'
@@ -63,8 +63,8 @@ export default function Home() {
             classImage={classes.classImage}
             buttonLabel='Fale com um consultor'
             linkButton='https://api.whatsapp.com/send?phone=5521986900206&text=Oi,%20eu%20quero%20falar%20com%20um%20consultor!'
-         /> */}
-         <HeaderBanner />
+         />
+         // <HeaderBanner />
          <Vantagens />
          <Experimente />
          <VeiculosDestaque />
