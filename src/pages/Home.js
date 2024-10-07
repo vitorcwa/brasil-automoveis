@@ -4,7 +4,6 @@ import {
 } from '@material-ui/core';
 import TopBar from '../components/TopBar';
 import HeaderContainer from '../components/HeaderContainer';
-// import HeaderBanner from '../components/HeaderBanner';
 import Footer from '../components/Footer';
 import Vantagens from '../components/Vantagens';
 import VeiculosDestaque from '../components/VeiculosDestaque';
@@ -12,9 +11,6 @@ import FaleConsultor from '../components/FaleConsultor';
 import Cacador from '../components/Cacador';
 import Depoimentos from '../components/Depoimentos';
 import Experimente from '../components/Experimente';
-
-// Images
-// import ImageHeader from '../images/header.webp';
 
 const useStyles = makeStyles((theme) => ({
    root: {
@@ -64,7 +60,6 @@ export default function Home() {
             buttonLabel='Fale com um consultor'
             linkButton='https://api.whatsapp.com/send?phone=5521986900206&text=Oi,%20eu%20quero%20falar%20com%20um%20consultor!'
          />
-         // <HeaderBanner />
          <Vantagens />
          <Experimente />
          <VeiculosDestaque />
