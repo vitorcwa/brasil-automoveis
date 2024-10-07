@@ -65,6 +65,7 @@ export default function Home() {
             linkButton='https://api.whatsapp.com/send?phone=5521986900206&text=Oi,%20eu%20quero%20falar%20com%20um%20consultor!'
          />
          // <HeaderBanner />
+         
          <Vantagens />
          <Experimente />
          <VeiculosDestaque />
