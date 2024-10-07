@@ -12,6 +12,9 @@ import Cacador from '../components/Cacador';
 import Depoimentos from '../components/Depoimentos';
 import Experimente from '../components/Experimente';
 
+// Images
+import ImageHeader from '../images/header.webp';
+
 const useStyles = makeStyles((theme) => ({
    root: {
       backgroundColor: '#FFFFFF',
