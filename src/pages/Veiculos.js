@@ -284,7 +284,7 @@ export default function Veiculos() {
                            {filterRecords.map((veiculo, ind)=>(
                               <Grid item xs={12} md={4} key={ind}>
                                  <Box className={classes.box} key={veiculo.Codigo}>
-                                    <Link to={`/veiculo/${veiculo.Codigo}`} className={classes.link}>
+                                    <Link to={`/veiculo/${veiculo.Modelo}/${veiculo.Codigo}`} className={classes.link}>
                                        {
                                           veiculo.FotoPrincipal ?
 
