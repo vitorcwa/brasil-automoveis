@@ -18,7 +18,7 @@ function Rotas() {
             <Route path="/veiculos/hatch" element={<VeiculosHatch/>} />
             <Route path="/veiculos/sedan" element={<VeiculosSedan/>} />
             <Route path="/veiculos/suv" element={<VeiculosSUV/>} />
-            <Route path="/veiculo/:id" element={<Veiculo/>} />
+            <Route path="/veiculo/:marca/:modelo/:versao/:id" element={<Veiculo/>} />
             <Route path="/nosso-time" element={<NossoTime/>} />
             <Route path="/aprove-seu-credito/" element={<AproveCredito/>} />
          </Routes>
