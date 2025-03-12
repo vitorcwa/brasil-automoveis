@@ -137,7 +137,7 @@ export default function Veiculo() {
    const classes = useStyles();
    const imagePath = 'https://www.autocerto.com/fotos/';
 
-   const { id } = useParams();
+   const { marca, modelo, versao, id } = useParams();
    const [veiculo, setVeiculo] = useState({});
 
    // Rolar página para o topo quando clicar em um veículo
