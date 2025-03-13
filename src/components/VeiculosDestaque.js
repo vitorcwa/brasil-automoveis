@@ -157,7 +157,7 @@ export default function VeiculosDestaque() {
                         return (
                            <Grid item xs={12} md={4} key={veiculo.Codigo}>
                               <Box className={classes.box}>
-                                 <Link to={`/veiculo/${veiculo.Codigo}`} className={classes.link}>
+                                 <Link to={`/veiculo/${veiculo.Marca}/${veiculo.Modelo}/${veiculo.Versao.replace(/\s/g, '-')}/${veiculo.Codigo}`} className={classes.link}>
                                     <Grid container className={classes.imgBox} justifyContent='center' alignContent='center'>
                                        {
                                           veiculo.FotoPrincipal ?
