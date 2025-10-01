@@ -138,7 +138,6 @@ export default function Header(props) {
                     <Grid container justifyContent='space-between'>
                       <Grid item><a className={classes.menuItem} href='/'>Home</a></Grid>
                       <Grid item><a className={classes.menuItem} href='/veiculos'>Seminovos</a></Grid>
-                      <Grid item><a className={classes.menuItem} href='https://promo.brasilautomoveisrj.com.br/consignado'>Quero vender</a></Grid>
                     </Grid>
                     {/* </Box> */}
                   </Box>
@@ -158,13 +157,14 @@ export default function Header(props) {
                     <Grid container justifyContent='space-between'>
                       <Grid item><a className={classes.menuItem} href='https://promo.brasilautomoveisrj.com.br/cacadores/'>Car Hunter</a></Grid>
                       {/* <Grid item><a className={classes.menuItem} href='/nosso-time'>Nosso time</a></Grid> */}
-                      <Grid item><a
-                        className={classes.menuItem}
-                        href='https://www.locafacilaluguel.com.br/'
-                        target='_blank'
-                        rel="noreferrer">
-                        Aluguel
-                      </a></Grid>
+                      <Grid item><a className={classes.menuItem} href='https://promo.brasilautomoveisrj.com.br/consignado'>Quero vender</a></Grid>  
+                      // <Grid item><a
+                      //   className={classes.menuItem}
+                      //   href='https://www.locafacilaluguel.com.br/'
+                      //   target='_blank'
+                      //   rel="noreferrer">
+                      //   Aluguel
+                      // </a></Grid>
                     </Grid>
                     {/* </Box> */}
                   </Box>
