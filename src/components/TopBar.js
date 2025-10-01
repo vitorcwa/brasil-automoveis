@@ -158,14 +158,14 @@ export default function Header(props) {
                       <Grid item><a className={classes.menuItem} href='https://promo.brasilautomoveisrj.com.br/cacadores/'>Car Hunter</a></Grid>
                       {/* <Grid item><a className={classes.menuItem} href='/nosso-time'>Nosso time</a></Grid> */}
                       <Grid item><a className={classes.menuItem} href='https://promo.brasilautomoveisrj.com.br/consignado'>Quero vender</a></Grid>  
-                      // <Grid item><a
-                      //   className={classes.menuItem}
-                      //   href='https://www.locafacilaluguel.com.br/'
-                      //   target='_blank'
-                      //   rel="noreferrer">
-                      //   Aluguel
-                      // </a></Grid>
-                    </Grid>
+                      {/*<Grid item><a
+                        className={classes.menuItem}
+                        href='https://www.locafacilaluguel.com.br/'
+                        target='_blank'
+                        rel="noreferrer">
+                        Aluguel
+                      </a></Grid>
+                    </Grid> */}
                     {/* </Box> */}
                   </Box>
                 </Grid>
