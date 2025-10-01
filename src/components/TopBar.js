@@ -164,8 +164,8 @@ export default function Header(props) {
                         target='_blank'
                         rel="noreferrer">
                         Aluguel
-                      </a></Grid>
-                    </Grid> */}
+                      </a></Grid> */}
+                    </Grid>
                     {/* </Box> */}
                   </Box>
                 </Grid>
